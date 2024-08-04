@@ -18,6 +18,8 @@ else
         options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
         options.InstanceName = "SampleInstance";
     });
+
+    // this is a comment to trigger the build
 }
 
 // Add services to the container.
